@@ -4,18 +4,22 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "babel": "^5.8.5",
+    "babel": "^6.0.0",
     "body-parser": "^1.13.2",
     "express": "^4.13.1",
     "graphql": "^0.4.3",
     "mongodb": "^2.0.39",
-    "q": "^1.4.1"
+    "q": "^1.4.1",
+    "snyk": "^1.88.2"
   },
   "devDependencies": {},
   "scripts": {
     "start": "node index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "David Chang <dchang.me@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
