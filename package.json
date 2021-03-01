@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "babel": "^5.8.5",
+    "babel": "^6.0.0",
     "body-parser": "^1.13.2",
     "express": "^4.13.1",
     "graphql": "^0.4.3",
